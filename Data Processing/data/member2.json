@@ -1,0 +1,34 @@
+{
+    "people": [
+        {
+            "name": "Kim",
+            "Job": "Engineer",
+            "Home": "Suji",
+            "Grade": [
+                70,
+                75,
+                80
+            ]
+        },
+        {
+            "name": "Lee",
+            "Job": "Literature Writer",
+            "Home": "Hwaseong",
+            "Grade": [
+                30,
+                40,
+                20
+            ]
+        },
+        {
+            "name": "Park",
+            "Job": "Doctor",
+            "Home": "Gang-nam",
+            "Grade": [
+                80,
+                85,
+                90
+            ]
+        }
+    ]
+}
