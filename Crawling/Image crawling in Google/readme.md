@@ -12,7 +12,7 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;두가지 library를 import 하기 위하여 library를 설치합니다. </br></br>
 ※ 아래 설치 방법은 <span style="color:red">anaconda3를 설치하였을 때 기준</span> 입니다.
 
-    conda install -c conda-forge opencv 
+    pip install opencv-python 또는 conda install -c conda-forge opencv (Anaconda 설치 완료 시, 사용 가능)
     pip install requests
 
 ⑥ 다운받은 python 파일을 다음과 같이 실행 합니다.</br>
