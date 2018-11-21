@@ -17,7 +17,7 @@
 
 ⑥ 다운받은 python 파일을 다음과 같이 실행 합니다.</br>
 
-    python download_images.py --urls urls.txt --output DIRECTORY
+    python download_images.py --urls urls.txt --output DIRECTORY --prefix PREFIX
 
 &nbsp;&nbsp;DIRECTORY에 파일을 실제 저장할 경로를 추가하면 됩니다.</br>
 &nbsp;&nbsp;ex) python download_images.py --urls <span style="color:red">urls.txt</span> --output <span style="color:red">image/</span></br>
