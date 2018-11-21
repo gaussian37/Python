@@ -20,5 +20,5 @@
     python download_images.py --urls urls.txt --output DIRECTORY --prefix PREFIX
 
 &nbsp;&nbsp;DIRECTORY에 파일을 실제 저장할 경로를 추가하면 됩니다.</br>
-&nbsp;&nbsp;ex) python download_images.py --urls <span style="color:red">urls.txt</span> --output <span style="color:red">image/</span>------prefix prefix_sample</br>
+&nbsp;&nbsp;ex) python download_images.py --urls <span style="color:red">urls.txt</span> --output <span style="color:red">image/</span> --prefix prefix_sample</br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ python 파일과 urls.txt가 동일 디렉토리에 있고 하부 디렉토리로 image 폴더가 있을 때, image 폴더내에 image 저장
