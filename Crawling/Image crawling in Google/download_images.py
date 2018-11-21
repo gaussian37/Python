@@ -11,6 +11,8 @@ ap.add_argument("-u", "--urls", required=True,
 	help="path to file containing image URLs")
 ap.add_argument("-o", "--output", required=True,
 	help="path to output directory of images")
+ap.add_argument("-pre", "--prefix", required=True,
+	help="prefix of images")
 args = vars(ap.parse_args())
  
 # grab the list of URLs from the input file, then initialize the
@@ -25,8 +27,7 @@ for url in rows:
 		r = requests.get(url, timeout=60)
  
 		# save the image to disk
-		p = os.path.sep.join([args["output"], "{}.jpg".format(
-			str(total).zfill(8))])
+		p = os.path.sep.join([args["output"], "{}.jpg".format(args["prefix"] + "_" + str(total).zfill(8))])
 		f = open(p, "wb")
 		f.write(r.content)
 		f.close()
